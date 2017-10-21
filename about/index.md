@@ -5,9 +5,13 @@ tags: [Eric, Tung, software, developer, programming, web, mobile, engineer]
 date: 2017-10-20
 comments: false
 ---
-{% picture of self %}
-http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
+
+{% capture images %}
+    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
+    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
 {% endcapture %}
+{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+
 <center><a href="http://tungeric.github.io/"><b>Eric</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
