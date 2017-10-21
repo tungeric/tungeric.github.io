@@ -8,7 +8,6 @@ comments: false
 
 {% capture images %}
     http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
-    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
@@ -27,12 +26,6 @@ comments: false
 * MathJax support
 
 ## Preview
-
-{% capture images %}
-    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
-    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
