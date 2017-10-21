@@ -1,29 +1,31 @@
 ---
 layout: page
-title: About Eric
+title: Eric Tung
 tags: [Eric, Tung, software, developer, programming, web, mobile, engineer]
 date: 2017-10-20
 comments: false
 ---
 
-<center>{% capture images %}
-    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}</center>
+Hello! My name is Eric, and I am a software developer. Previously, I worked as a structural engineer, and I had a large hand in projects such as the [SF Moma Expansion](https://cdn.vox-cdn.com/thumbor/sNVu3krxp28WZ9X9l-GnWaItip4=/0x240:1998x1364/1200x675/filters:focal(0x0:1818x1364)/cdn.vox-cdn.com/uploads/chorus_image/image/49437881/SFMOMA-4.0.jpg) and the [Sacramento Barn](http://ww3.hdnux.com/photos/57/67/33/12547794/5/920x920.jpg). 
 
-<center><a href="http://tungeric.github.io/"><b>Eric</b></a> is a minimal, one column jekyll theme.</center>
+<img style="float: right;" src="http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg">
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+
+## Skills
+* Ruby
+* JavaScript
+* JQuery
+* Git
+* React
+* React-Native
+* Redux
+* GraphQL/Apollo
+* Expo
+* Ruby on Rails
+* SQL
+* RSpec
+* HTML
+* CSS
 
 ## Preview
 
