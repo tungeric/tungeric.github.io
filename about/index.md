@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: About Eric
+tags: [Eric, Tung, software, developer, programming, web, mobile, engineer]
+date: 2017-10-20
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><img src='../assets/img/eric_tung.jpg' height="100", width="100", style="border-radius: 50%;"/></center>    
+<center><a href="http://tungeric.github.io/"><b>Eric</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
 * Minimal, you can focus on your content
