@@ -25,8 +25,8 @@ http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/er
 ## Preview
 
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
+    http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
