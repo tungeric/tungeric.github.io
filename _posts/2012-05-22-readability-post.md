@@ -1,45 +1,40 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
-date: 2012-05-22
-excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
+title: "SF MoMA and the Art of Staying in Love"
+date: 2015-10-11
+excerpt: "Everyone has their own muse."
+tags:
 comments: true
 ---
 
-Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+When I first stepped into the realm of adulthood (when I first got a real job) back in 2012 at a wonderful structural firm called [Magnusson Klemencic Associates](http://www.mka.com/) in Seattle, the first task I was assigned to design was a chimney for some rich dude's mansion somewhere in the middle of Idaho.
 
-Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
+I know. Exciting stuff, right?
 
-## Cupidatat 90's lo-fi authentic try-hard
+But you gotta start somewhere, and that was the beginning of my relationship with the world of structural engineering. And I was involved in many different projects of varying degrees of such excitement as I started my career, including the [University of Iowa School of Music](https://now.uiowa.edu/sites/now.uiowa.edu/files/11_ui_school_of_music.jpg) and [The Dhirubhai Ambani International Convention and Exhibition Centre](https://www.tendersontime.com/get-blog-image.php?id=MTg1) - I know, it's a mouthful - but here's the kicker: you have seen as much of the buildings as I have if you just clicked the links above. I've never seen those buildings go up in real life. I've never even seen a photo of that chimney that I designed when I first started work.
 
-In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90's.
+<img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/12079681_10153084293521581_2377820966440906241_n.jpg?oh=bf0cb8b34b891e300d0126dccd479332&oe=5A7E908D">
 
-* Sartorial hoodie
-* Labore viral forage
-* Tote bag selvage
-* DIY exercitation et id ugh tumblr church-key
+Your career to me is like any other relationship. In your youth, relationships are but dreams. You have a crush on that cute girl who sits across from you in your 2nd period Social Studies class (I made that up so don't bother putting on your internet detective hats) just like you wonder how awesome it would be to [Be Like Mike](https://www.youtube.com/watch?v=b0AGiq9j_Ak) and play in the NBA for a living.
 
-Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.
+But eventually we figure out what we want to do or who we want to be with (some would argue that we all decide these things too early in our lives but that's a discussion for another day) and we step into a relationship with - in my case, structural engineering.
 
-Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven't heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney's Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.
+We don't all get to love what we do everyday we do it. Sure, some people are lucky and get to wake up everyday sure of themselves and are passionate in everything they do, but the reality is, sometimes we have doubts about who we're with. Sometimes we're not sure that we're on the right path. Whether the issue is money or sanity, the grass does really seem greener on the other side every now and then.
+And in those moments we need something to kick us in the rear end and keep us going. Something to remind us why we do what we do, to keep us motivated. And it's different for everyone - sometimes what drives you is [watching yourself get passed over by people you know you're better than](https://cdn2.vox-cdn.com/thumbor/qjY_kJ-9HN_5IsczSgRutYk6UkI=/404x0:1683x853/730x487/cdn0.vox-cdn.com/uploads/chorus_image/image/15519255/nerlens1.0.jpg) (love you Nerlens!). For some people, the faces of gratitude on the patient that they just saved from the brink of death is what keeps them going. Everyone has their own muse.
 
-## Forage occaecat cardigan qui
+My muse is SF MoMA. Well, the SF MoMA expansion.
 
-Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.
+I worked on SF MoMA starting back in 2013. I designed the gravity system for the building; that is, I designed the steel beams and columns that hold the building up, but I did not contribute to anything that might help you in the event of an earthquake (that's called the lateral system). I won't bore you with specifics of the building design process but anyway, during the construction of the building I was switched onto a new team and I never got to see the building up close and personal...
 
-> Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+... until last winter, when I visited San Francisco with my family! I dragged them halfway across the city just so I could catch a glimpse of my pride and joy. My parents watched me in amusement seeing their 25-year-old son jump around excitedly like he was six and pointing giddily at a half finished skeleton of a building half hidden by the buildings surrounding it (let's say our view from the street was limited at best). But it was more than just an incomplete museum expansion to me. I looked up at the pearly walls and I could say the three words that I’d always dreamed of saying.
 
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
+"I did that."
 
-## Hoodie Duis
+<img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t31.0-8/p720x720/12080076_10153084297571581_6840914252985835204_o.jpg?oh=5c36c67eaa6b78eec6d39269206301d8&oe=5A762822">
 
-Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90's pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.
+Like, holy shit, _I did that_.
 
-### Thundercats Ho!
+I mean I'm not going to take all the credit. Hundreds of other people had their fingerprints all over the building. A lot of people probably had more of an impact on this building than I did. And hell, most people will never actually see much of my contributions - almost everything I designed is hidden behind walls and beneath the floors. But being able to see my work in real life, not on a computer screen and not on a piece of paper, validates to me why I do what I do. It makes the long hours and the complicated design challenges worth it. It makes me feel better about the path I'm on and where it will take me.
 
-Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney's seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.
+Sometimes all it takes is just to see her face to remind ourselves what made us fall in love with her in the first place.
 
-Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney's selfies. Odd Future Banksy non authentic.
-
-Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.
