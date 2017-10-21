@@ -5,7 +5,9 @@ tags: [Eric, Tung, software, developer, programming, web, mobile, engineer]
 date: 2017-10-20
 comments: false
 ---
-<center><img src='../assets/img/eric_tung.jpg' height="100", width="100", style="border-radius: 50%;"/></center>    
+{% picture of self %}
+http://res.cloudinary.com/dfafbqoxx/image/upload/c_fit,r_30,w_300/v1508565263/eric_tung_ofnqm8.jpg
+{% endcapture %}
 <center><a href="http://tungeric.github.io/"><b>Eric</b></a> is a minimal, one column jekyll theme.</center>
 
 ## Features
