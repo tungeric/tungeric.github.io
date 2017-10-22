@@ -82,8 +82,8 @@ I also took a dropdown menu from mlaursen's react-dd-menu (https://github.com/ml
 
 ![Alt text](/assets/images/ss8.png "ss4")
 
- And of course major design choices and styling were an imitation of the fine work being done at (https://soundcloud.com/).
+ And of course major design choices and styling were an imitation of the fine work being done at [SoundCloud](https://soundcloud.com/).
 
-In addition, this page uses Paperclip (https://github.com/thoughtbot/paperclip) and Figaro (https://www.npmjs.com/package/figaro) to facilitate the upload of files to Amazon Web Server. I chose Amazon Web Server for its apparent security - the files uploaded cannot be tampered with by anyone other than myself
+In addition, this page uses [Paperclip](https://github.com/thoughtbot/paperclip) and [Figaro](https://www.npmjs.com/package/figaro) to facilitate the upload of files to Amazon Web Server. I chose Amazon Web Server for its apparent security - the files uploaded cannot be tampered with by anyone other than myself
 
 Big thanks for those sites mentioned above as well as the hundreds (thousands?) of posts on Google, Github and StackOverflow that helped move me along the way. And of course a big thank you to App Academy for showing me the skills necessary to build this application.
