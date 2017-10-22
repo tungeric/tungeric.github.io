@@ -1,153 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-21T16:39:05-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>Skills include: JavaScript, Ruby, JQuery, GraphQL, Expo, Git, React, React-Native, Redux, Ruby on Rails, RESTful API, SQL, HTML5, CSS3, VBA</subtitle><entry><title type="html">Moon Jekyll Theme</title><link href="https://tungeric.github.io//moon-theme/" rel="alternate" type="text/html" title="Moon Jekyll Theme" /><published>2016-04-06T00:00:00-07:00</published><updated>2016-04-06T00:00:00-07:00</updated><id>https://tungeric.github.io//moon-theme</id><content type="html" xml:base="https://tungeric.github.io//moon-theme/">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&quot; alt=&quot;Moon Homepage&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-21T23:21:10-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>Skills include: JavaScript, Ruby, JQuery, GraphQL, Expo, Git, React, React-Native, Redux, Ruby on Rails, RESTful API, SQL, HTML5, CSS3, VBA</subtitle><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
-&lt;center&gt;&lt;b&gt;Moon&lt;/b&gt; is a minimal, one column jekyll theme.&lt;/center&gt;
+&lt;h1 id=&quot;soundcrown&quot;&gt;SOUNDCROWN&lt;/h1&gt;
 
-&lt;p&gt;I’m not a developer or designer. And I don’t add footer to show who did this theme. If you like this theme or using it, please give a &lt;strong&gt;star&lt;/strong&gt; for motivation, It makes me happy.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://soundcrown.herokuapp.com&quot;&gt;Live page on Heroku&lt;/a&gt;&lt;/p&gt;
 
-&lt;iframe src=&quot;https://ghbtns.com/github-btn.html?user=TaylanTatli&amp;amp;repo=Moon&amp;amp;type=star&amp;amp;count=true&amp;amp;size=large&quot; frameborder=&quot;0&quot; scrolling=&quot;0&quot; width=&quot;160px&quot; height=&quot;30px&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;This was a project between Week 8 and Week 10 of App Academy and is meant to be a clone of the popular web-streaming service SoundCloud. This application is built using Ruby on Rails for backend with PostgreSQL for the database and ReactJS for the front end.&lt;/p&gt;
 
-&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;h2 id=&quot;key-features&quot;&gt;Key Features:&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/TaylanTatli/Moon/fork&quot;&gt;Moon repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/li&gt;
-  &lt;li&gt;Remove sample posts from &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder and add yours.&lt;/li&gt;
-  &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; file in &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; folder.&lt;/li&gt;
-  &lt;li&gt;Change repo name to &lt;code class=&quot;highlighter-rouge&quot;&gt;YourUserName.github.io&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;User Authentication and secure sign-in&lt;/li&gt;
+  &lt;li&gt;User uploaded pictures and audio files&lt;/li&gt;
+  &lt;li&gt;Continuous playback of music while navigating the site&lt;/li&gt;
+  &lt;li&gt;Users can leave comments on tracks&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That’s all.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss1.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;preview&quot;&gt;Preview&lt;/h2&gt;
+&lt;p&gt;The splash page is designed to look somewhat like SoundCloud’s home page - I used essentially the same words as SoundCloud has with the exception of a few references to royalty and kingdoms (my site is named “SoundCROWN” after all).&lt;/p&gt;
 
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Screenshots of Moon Theme&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;Users can log in or create an account using the buttons in the top right or in the center of the page - or they can scroll all the way to the bottom of the page and eventually there will be buttons there too! Alternatively, click the “Demo” button for a quick tour around the page with full user capabilities.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Passwords are protected using BCrypt.&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Moon Theme on Small Screen Size&lt;/figcaption&gt;
-&lt;/figure&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss2.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;See a &lt;a href=&quot;http://taylantatli.github.io/Moon&quot;&gt;live version of Moon&lt;/a&gt; hosted on GitHub.&lt;/p&gt;
+&lt;p&gt;Once logged in, the site will direct you to our Stream page, which features the newest and most-played tracks on the application. If you click the play button on any of these tracks, a music bar will appear at the bottom of the screen and begin playing music. You can now navigate anywhere in the site and the music will continue to play until you tell it to stop or until the page is refreshed manually.&lt;/p&gt;
 
-&lt;h2 id=&quot;site-setup&quot;&gt;Site Setup&lt;/h2&gt;
-&lt;p&gt;A quick checklist of the files you’ll want to edit to get up and running.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss3.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;site-wide-configuration&quot;&gt;Site Wide Configuration&lt;/h3&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; is your friend. Open it up and personalize it. Most variables are self explanatory but here’s an explanation of each if needed:&lt;/p&gt;
+&lt;p&gt;Users also have their own page where they can freely edit their avatar and tracks. Note that the url for users is simply &lt;code class=&quot;highlighter-rouge&quot;&gt;(root directory)/:username&lt;/code&gt;. I chose this so users can have an easier time just typing in other usernames as opposed to trying to remember the user_id. This did pose some challenges as Rails is predisposed to link associations with ids, so during any data transfer both the username as well as the id must be passed through. The music essentially plays the existing playlist unless you click out of it so if you started playing a track on the Stream page, it will continue to go down the list of tracks in the stream page (or the order can be randomized if you wish - just click the shuffle button in the play bar!&lt;/p&gt;
 
-&lt;h4 id=&quot;title&quot;&gt;title&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss4.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The title of your site… shocker!&lt;/p&gt;
+&lt;p&gt;In the play bar you have more options than just shuffle. If you want to play one specific track on repeat, click the repeat button. Next and previous buttons as well as play/pause buttons are also available. You can also adjust your position on the track using the track progress slider in the middle of the bar. Lastly, the track can be muted in a pinch by clicking the volume control button.&lt;/p&gt;
 
-&lt;p&gt;Example &lt;code class=&quot;highlighter-rouge&quot;&gt;title: My Awesome Site&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;A big challenge for me was to have the page communicate with the play bar on whether the track is playing or not - this is why the play button turns to the pause button when you click it. To accomplish this, I had to send the play data from the play bar up to the root application level and back down into the track item. This street goes two ways, though, so the same data has to be transferred back to the music player in the event that the user clicks “play” in the page instead of on the play bar.&lt;/p&gt;
 
-&lt;h4 id=&quot;bio&quot;&gt;bio&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss6.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The description to show on your homepage.&lt;/p&gt;
+&lt;p&gt;Files can be uploaded at any time by clicking the “Upload” button in the nav bar. This will enable users to choose an audio file and a cover art for their track. The only required info for the upload to work are the track and the title. To be honest, the description isn’t even shown anywhere on the page, but use it to hide secret messages and easter eggs!&lt;/p&gt;
 
-&lt;h4 id=&quot;description&quot;&gt;description&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss5.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The description to use for meta tags and navigation menu.&lt;/p&gt;
+&lt;p&gt;Tracks also have their own pages where users can play the track as well as leave comments. Comments are displayed in reverse chronological order for the time being.&lt;/p&gt;
 
-&lt;h4 id=&quot;url&quot;&gt;url&lt;/h4&gt;
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
 
-&lt;p&gt;Used to generate absolute urls in &lt;code class=&quot;highlighter-rouge&quot;&gt;sitemap.xml&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;feed.xml&lt;/code&gt;, and for generating canonical URLs in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;. When developing locally either comment this out or use something like &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt; so all assets load properly. &lt;em&gt;Don’t include a trailing &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Clone this repository
+git clone https://github.com/tungeric/SoundCrown.git
 
-&lt;p&gt;Examples:&lt;/p&gt;
+# Go to the repository
+cd soundcrown-app
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://localhost:4000&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;//cooldude.github.io&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+# install dependencies
+npm install
 
-&lt;h4 id=&quot;reading_time&quot;&gt;reading_time&lt;/h4&gt;
+# initiate your server
+rails server
 
-&lt;p&gt;Set true to show reading time for posts. And set &lt;code class=&quot;highlighter-rouge&quot;&gt;words_per_minute&lt;/code&gt;, default is 200.&lt;/p&gt;
-
-&lt;h4 id=&quot;logo&quot;&gt;logo&lt;/h4&gt;
-&lt;p&gt;Your site’s logo. It will show on homepage and navigation menu. Also used for twitter meta tags.&lt;/p&gt;
-
-&lt;h4 id=&quot;background&quot;&gt;background&lt;/h4&gt;
-&lt;p&gt;Image for background. If you don’t set it, color will be used as a background.&lt;/p&gt;
-
-&lt;h4 id=&quot;google-analytics-and-webmaster-tools&quot;&gt;Google Analytics and Webmaster Tools&lt;/h4&gt;
-
-&lt;p&gt;Google Analytics UA and Webmaster Tool verification tags can be entered in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. For more information on obtaining these meta tags check &lt;a href=&quot;http://support.google.com/webmasters/bin/answer.py?hl=en&amp;amp;answer=35179&quot;&gt;Google Webmaster Tools&lt;/a&gt; and &lt;a href=&quot;https://ssl.bing.com/webmaster/configure/verify/ownership&quot;&gt;Bing Webmaster Tools&lt;/a&gt; support.&lt;/p&gt;
-
-&lt;h4 id=&quot;mathjax&quot;&gt;MathJax&lt;/h4&gt;
-&lt;p&gt;It’s enabled. But if you don’t want to use it. Set it false in  &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&quot;disqus-comments&quot;&gt;Disqus Comments&lt;/h4&gt;
-&lt;p&gt;Set your disqus shortname in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to use comments.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;navigation-links&quot;&gt;Navigation Links&lt;/h3&gt;
-
-&lt;p&gt;To set what links appear in the top navigation edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_data/navigation.yml&lt;/code&gt;. Use the following format to set the URL and title for as many links as you’d like. &lt;em&gt;External links will open in a new window.&lt;/em&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Home&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Blog&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/blog/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Projects&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/projects/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;About&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/about/&lt;/span&gt;
-
-&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Moon&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;http://taylantatli.me/Moon&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;layouts-and-content&quot;&gt;Layouts and Content&lt;/h2&gt;
-
-&lt;p&gt;Moon Theme use &lt;a href=&quot;https://github.com/penibelst/jekyll-compress-html&quot;&gt;Jekyll Compress&lt;/a&gt; to compress html output. But it can cause errors if you use “linenos” (line numbers). I suggest don’t use line numbers for codes, because it won’t look good with this theme, also i didn’t give a proper style for them. If you insist to use line numbers, just remove &lt;code class=&quot;highlighter-rouge&quot;&gt;layout: compress&lt;/code&gt; string from layouts. It will disable compressing.&lt;/p&gt;
-
-&lt;h3 id=&quot;feature-image&quot;&gt;Feature Image&lt;/h3&gt;
-
-&lt;p&gt;You can set feature image per post. Just add &lt;code class=&quot;highlighter-rouge&quot;&gt;feature: some link&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;feature: /assets/img/some-image.png
-or
-feaure: http://example.com/some-image.png
+# navigate to localhost:3000
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;This also will be used for twitter card:&lt;/p&gt;
+&lt;p&gt;In order to upload files, you will need to make an account on Amazon Web Services and generate your security access codes to place in your &lt;code class=&quot;highlighter-rouge&quot;&gt;config/application.yml&lt;/code&gt; file.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png&quot; alt=&quot;Moon Twitter Card&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;credits&quot;&gt;Credits&lt;/h2&gt;
 
-&lt;h3 id=&quot;comments&quot;&gt;Comments&lt;/h3&gt;
-&lt;p&gt;To show disqus comments for your post add &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to your post’s front matter.&lt;/p&gt;
+&lt;p&gt;This project uses a few open source, particularly for the music playback portion (see below). The music playbar was a heavily modified version of the React Music Player by smronju: (https://github.com/smronju/React-Music-Player) and the music animation is from Joshuasm32 (https://codepen.io/Joshuasm32/pen/IDxKB).&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss4.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;questions&quot;&gt;Questions?&lt;/h2&gt;
+&lt;p&gt;I also took a dropdown menu from mlaursen’s react-dd-menu (https://github.com/mlaursen/react-dd-menu) to enable users to edit and delete their tracks.&lt;/p&gt;
 
-&lt;p&gt;Found a bug or aren’t quite sure how something works? By all means &lt;a href=&quot;https://github.com/TaylanTatli/Moon/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;. And if you make something cool with this theme feel free to let me know.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/ss8.png&quot; alt=&quot;Alt text&quot; title=&quot;ss4&quot; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;And of course major design choices and styling were an imitation of the fine work being done at (https://soundcloud.com/).&lt;/p&gt;
 
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
+&lt;p&gt;In addition, this page uses Paperclip (https://github.com/thoughtbot/paperclip) and Figaro (https://www.npmjs.com/package/figaro) to facilitate the upload of files to Amazon Web Server. I chose Amazon Web Server for its apparent security - the files uploaded cannot be tampered with by anyone other than myself&lt;/p&gt;
 
-&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><category term="jekyll" /><category term="moon" /><category term="blog" /><category term="about" /><category term="theme" /><summary type="html">Minimal, one column Jekyll theme for your blog.</summary></entry><entry><title type="html">Markdown Syntax</title><link href="https://tungeric.github.io//markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00-07:00</published><updated>2016-03-15T00:00:00-07:00</updated><id>https://tungeric.github.io//markdown-syntax</id><content type="html" xml:base="https://tungeric.github.io//markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
+&lt;p&gt;Big thanks for those sites mentioned above as well as the hundreds (thousands?) of posts on Google, Github and StackOverflow that helped move me along the way. And of course a big thank you to App Academy for showing me the skills necessary to build this application.&lt;/p&gt;</content><category term="SoundCloud" /><category term="fullstack" /><category term="ruby" /><category term="rails" /><category term="react" /><category term="redux" /><summary type="html"></summary></entry><entry><title type="html">Markdown Syntax</title><link href="https://tungeric.github.io//markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00-07:00</published><updated>2016-03-15T00:00:00-07:00</updated><id>https://tungeric.github.io//markdown-syntax</id><content type="html" xml:base="https://tungeric.github.io//markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
 
 &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 
