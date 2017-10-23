@@ -31,3 +31,7 @@ In my spare time you can often find me chasing waterfalls, whether that's hiking
 * RSpec
 * HTML
 * CSS
+* VBA
+
+Check out some of Eric's [projects](../projects/)!
+
