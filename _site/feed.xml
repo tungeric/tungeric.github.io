@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-23T11:45:27-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>Skills include: JavaScript, Ruby, JQuery, GraphQL, Expo, Git, React, React-Native, Redux, Ruby on Rails, RESTful API, SQL, HTML5, CSS3, VBA</subtitle><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-23T13:42:50-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>I spent my life building concrete foundations - literally. Now I'm aiming for the clouds - also kind of literally but mostly I just wanted to be punny there.</subtitle><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://aldahir15.github.io/SpotMeApp/&quot;&gt;Live demo page&lt;/a&gt;&lt;/p&gt;
 
@@ -16,7 +16,33 @@
 
 &lt;h2 id=&quot;facebook-login&quot;&gt;Facebook login&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-fb-login.gif&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;</content><category term="mobile" /><category term="react-native" /><category term="redux" /><category term="graphql" /><category term="apollo" /><category term="rails" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;One of the first challenges I tackled for this project was O-Auth. O-Auth was much more complex than anything I had learned at App Academy thus far, and took much longer than I expected. Here’s what the flow for the authentication ended up being for me:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;I used a website called &lt;a href=&quot;www.auth0.com&quot;&gt;Auth0&lt;/a&gt; to help me with the process. Altogether, Auth0 didn’t actually save me any steps, but because it was built to handle multiple logins through multiple sites all using a single endpoint from the developer perspective (meaning the process to add Google authentication would be theoretically minimal), it seemed to be the right way to go. The built-in debugger was very helpful in me figuring out where I was going wrong in my requests.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using Auth0, I pinged Facebook for an access code. This is a short-ish code that you’ll need for Step 3.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Facebook (and other websites - including Auth0!) have a Client ID along with a Client Secret that you have to keep, well, &lt;em&gt;secret&lt;/em&gt;. I ended up storing this in the backend using the Figaro gem, in the &lt;code class=&quot;highlighter-rouge&quot;&gt;application.yml&lt;/code&gt; file, so the next step is to ping our backend with the access code we got in Step 2, so Rails can ping Facebook for the actual authorization token.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rails pings Facebook for the actual authorization token.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;So Facebook sends you the authorization token back. We’re done, right? NOPE. It gives you the token back in a Base64Url encoded format, which I then used the jwtDecoder library to decode. When the token is decoded, we finally have access to our Facebook information (email, profile, etc) and we can sign in to our app normally.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The result is glorious:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-fb-login.gif&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;google-maps-and-seeing-all-your-spots&quot;&gt;Google Maps and seeing all your spots&lt;/h2&gt;
+
+&lt;p&gt;Coming soon…&lt;/p&gt;</content><category term="mobile" /><category term="react-native" /><category term="redux" /><category term="graphql" /><category term="apollo" /><category term="rails" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;soundcrown&quot;&gt;SOUNDCROWN&lt;/h1&gt;
 

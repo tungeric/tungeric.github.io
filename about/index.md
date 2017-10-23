@@ -33,5 +33,5 @@ In my spare time you can often find me chasing waterfalls, whether that's hiking
 * CSS
 * VBA
 
-Check out some of Eric's [projects](../projects/)!
+Check out some of my [projects](../projects/)!
 
