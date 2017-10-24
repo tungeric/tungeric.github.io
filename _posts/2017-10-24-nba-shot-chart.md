@@ -42,3 +42,5 @@ Here's what I got:
 Well then. Let's see what we can do about that. Maybe somebody wrote a library to figure out a way around this. I'll look into how to get around CORS later if need be, but for now let's just try to figure out how to get the data I want.
 
 [LO AND BEHOLD!](https://github.com/bttmly/nba) Whoever Nick Bottomley is, you're a superhero.
+
+More coming soon...
