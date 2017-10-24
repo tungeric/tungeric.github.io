@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-24T11:41:48-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>I spent my life building concrete foundations - literally. Now I'm aiming for the clouds - also kind of literally but mostly I just wanted to be punny there.</subtitle><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-24T11:55:08-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>I spent my life building concrete foundations - literally. Now I'm aiming for the clouds - also kind of literally but mostly I just wanted to be punny there.</subtitle><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://aldahir15.github.io/SpotMeApp/&quot;&gt;Live demo page&lt;/a&gt;&lt;/p&gt;
 
@@ -78,9 +78,17 @@
 
 &lt;h2 id=&quot;google-maps-and-seeing-all-your-spots&quot;&gt;Google Maps and seeing all your spots&lt;/h2&gt;
 
-&lt;p&gt;The major feature of the application is being able to see spots near you as you’re driving around on a map. We utilized the Google Maps API to display all the spots that we just retreived using our query&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;/assets/images/spotme-iphone.png&quot; alt=&quot;iphone&quot; title=&quot;iPhone&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The major feature of the application is being able to see spots near you as you’re driving around on a map. We utilized the Google Maps API to display all the spots that we just retreived using our query. Users are able to create spots with just an address, and our application will access Google Maps to convert the address into longitude and latitude, which determine the location of the spots on the map.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-create-spot.gif&quot; alt=&quot;iphone&quot; title=&quot;iPhone&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the address the user enters doesn’t need to be perfect. The Google Maps API is intelligent enough to figure out your address even if users use shorthand or acronyms.&lt;/p&gt;
+
+&lt;h2 id=&quot;reserving-and-holding-spots&quot;&gt;Reserving and Holding Spots&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-reserve-spot.gif&quot; alt=&quot;iphone&quot; title=&quot;iPhone&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;More coming soon…&lt;/p&gt;</content><category term="mobile" /><category term="react-native" /><category term="redux" /><category term="graphql" /><category term="apollo" /><category term="rails" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
