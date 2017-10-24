@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-24T11:55:08-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>I spent my life building concrete foundations - literally. Now I'm aiming for the clouds - also kind of literally but mostly I just wanted to be punny there.</subtitle><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://tungeric.github.io//feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://tungeric.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tungeric.github.io//" rel="alternate" type="text/html" /><updated>2017-10-24T13:24:24-07:00</updated><id>https://tungeric.github.io//</id><title type="html">Eric Tung</title><subtitle>I spent my life building concrete foundations - literally. Now I'm aiming for the clouds - also kind of literally but mostly I just wanted to be punny there.</subtitle><entry><title type="html">NBA Shot Chart</title><link href="https://tungeric.github.io//nba-shot-chart/" rel="alternate" type="text/html" title="NBA Shot Chart" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://tungeric.github.io//nba-shot-chart</id><content type="html" xml:base="https://tungeric.github.io//nba-shot-chart/">&lt;h2 id=&quot;the-beginning&quot;&gt;The beginning&lt;/h2&gt;
+
+&lt;p&gt;I’m going to do this post a little differently in that I’m starting the project at the same time as creating this post. So this will more or less be a running-dialogue of my thoughts as I’m delving into this project.&lt;/p&gt;
+
+&lt;p&gt;I’m trying to create NBA shot charts using data available on &lt;a href=&quot;stats.nba.com&quot;&gt;stats.nba.com&lt;/a&gt;. You can access data by entering a url which should theoretically return a JSON response. I’d like to turn this JSON response into a visual shot chart using vanilla Javascript. Let’s go for it and see how this goes!&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-data-from-nbacom&quot;&gt;Getting data from NBA.com&lt;/h2&gt;
+
+&lt;p&gt;The first step is to try to get a request to return the JSON response as expected. Here is the url that I figured out works for this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;http://stats.nba.com/stats/commonallplayers?LeagueID=00&amp;amp;Season=2017-18&amp;amp;IsOnlyCurrentSeason=1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what I got from that:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/shot-chart_1.png&quot; alt=&quot;shotchart1&quot; title=&quot;shot chart 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Great. Now to use my application to make a request to the site. This might get a little harder.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const allPlayersUrl = 'https://stats.nba.com/stats/commonallplayers?LeagueID=00&amp;amp;Season=2017-18&amp;amp;IsOnlyCurrentSeason=1';
+var httpRequest = new XMLHttpRequest();
+httpRequest.onreadystatechange = function (data) {
+  console.log(data);
+};
+httpRequest.open('GET', allPlayersUrl);
+httpRequest.send();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here’s what I got:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/shot-chart_2.png&quot; alt=&quot;shotchart2&quot; title=&quot;shot chart 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well then. Let’s see what we can do about that. Maybe somebody wrote a library to figure out a way around this. I’ll look into how to get around CORS later if need be, but for now let’s just try to figure out how to get the data I want.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/bttmly/nba&quot;&gt;LO AND BEHOLD!&lt;/a&gt; Whoever Nick Bottomley is, you’re a superhero.&lt;/p&gt;</content><category term="nba" /><category term="stats" /><category term="data" /><summary type="html">The beginning</summary></entry><entry><title type="html">SpotMe</title><link href="https://tungeric.github.io//spotme/" rel="alternate" type="text/html" title="SpotMe" /><published>2017-10-14T00:00:00-07:00</published><updated>2017-10-14T00:00:00-07:00</updated><id>https://tungeric.github.io//spotme</id><content type="html" xml:base="https://tungeric.github.io//spotme/">&lt;p&gt;&lt;img src=&quot;/assets/images/spotme-logo.png&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://aldahir15.github.io/SpotMeApp/&quot;&gt;Live demo page&lt;/a&gt;&lt;/p&gt;
 
@@ -90,7 +124,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/spotme-reserve-spot.gif&quot; alt=&quot;iphone&quot; title=&quot;iPhone&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;More coming soon…&lt;/p&gt;</content><category term="mobile" /><category term="react-native" /><category term="redux" /><category term="graphql" /><category term="apollo" /><category term="rails" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;More coming soon…&lt;/p&gt;</content><category term="mobile" /><category term="react-native" /><category term="redux" /><category term="graphql" /><category term="apollo" /><category term="rails" /><category term="ruby" /><summary type="html"></summary></entry><entry><title type="html">Shot Clock Challenge</title><link href="https://tungeric.github.io//shot-clock-challenge/" rel="alternate" type="text/html" title="Shot Clock Challenge" /><published>2017-10-07T00:00:00-07:00</published><updated>2017-10-07T00:00:00-07:00</updated><id>https://tungeric.github.io//shot-clock-challenge</id><content type="html" xml:base="https://tungeric.github.io//shot-clock-challenge/"></content><category term="javascript" /><category term="physics" /><category term="canvas" /><category term="html5" /><summary type="html"></summary></entry><entry><title type="html">SoundCrown</title><link href="https://tungeric.github.io//soundcrown/" rel="alternate" type="text/html" title="SoundCrown" /><published>2017-09-29T00:00:00-07:00</published><updated>2017-09-29T00:00:00-07:00</updated><id>https://tungeric.github.io//soundcrown</id><content type="html" xml:base="https://tungeric.github.io//soundcrown/">&lt;p&gt;&lt;img src=&quot;/assets/images/soundcrown-logo-wide.jpg&quot; alt=&quot;Alt text&quot; title=&quot;Logo&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;soundcrown&quot;&gt;SOUNDCROWN&lt;/h1&gt;
 
